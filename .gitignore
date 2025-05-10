@@ -1,0 +1,8 @@
+/vendor/
+/logs/
+/config/config.php
+token.json
+*.zip
+*.tgz
+.env
+ngrok*
