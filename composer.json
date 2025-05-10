@@ -1,0 +1,17 @@
+{
+    "name": "yourname/amocrm-webhook-integration",
+    "description": "Интеграция webhook amoCRM на PHP с добавлением примечаний в карточки.",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmoCrm\\": "src/AmoCrm/"
+        }
+    },
+    "require-dev": {},
+    "license": "MIT"
+} 
